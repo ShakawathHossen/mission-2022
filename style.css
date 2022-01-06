@@ -16,7 +16,7 @@ body{
 #horizontal-scroll{
     border-left: 3px solid rgb(233, 80, 220);
 }
-.text-area h1{
+.text-area  h1{
     margin-left:20px;
     font-size: 60px;
     font-weight: 400;
@@ -141,17 +141,17 @@ body{
 /*------Section2 end-------*/
 .Develop{
     background-image: url(images/dream-bg.png);
-    padding: 30px 90px;
+    padding: 50px 100px;
     background-repeat: no-repeat;
     background-position: right center;
     display: flex;
 }
 .my-bg{
-    height: 500px;
+    height: 400px;
 }
 .dev-text{
     margin-left: 60px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .dev-text h1{
     font-size: 40px;
@@ -195,7 +195,7 @@ body{
     background-position: left center;
 }
 .community-text{
-    margin-top: 60px;
+    margin-top: 50px;
     width: 50%;
 
 }
@@ -238,6 +238,79 @@ body{
     transition: 0.8s;
 }
 /*------Section4 end-------*/
+.contact{
+	position: relative;
+	width: 100%;
+	height: 100%;
+    padding: 50px 0px 100px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact-box{
+	width: 80%;
+    border-radius: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    background-color: #4f9da648;
+	box-shadow: 0px 0px 19px 5px rgba(58, 57, 57, 0.19);
+}
+.right{
+	padding: 20px 50px;
+}
+
+.right h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+	position: relative;
+	padding: 0 0 15px;
+	margin-bottom: 10px;
+}
+
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+    color: black;
+    border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	padding: 0.5rem 1rem;
+	font-size: 16px;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 204, 255, 0.295);
+}
+
+textarea{
+	min-height: 150px;
+}
+.right a{
+    padding: 10px 50px;
+	background-color: rgb(233, 80, 220);
+	color: #fff;
+    border-radius: 5px;
+	font-size: 18;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+	cursor: pointer;
+	transition: .3s;
+}
+.right a:hover{
+    background-color: rgb(0, 204, 255);
+}
+
+
+/*------Section5 end-------*/
 .footer{
     padding-top: 30px;
     text-align: center;
